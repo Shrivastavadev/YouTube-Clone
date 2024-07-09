@@ -1,0 +1,72 @@
+.sidebar{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    left: 0px;
+    bottom: 0px;
+    top: 55px;
+    width: 74px;
+    background-color: white;
+    height: 500px; 
+    z-index: 101;
+}
+.whitebar{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 0px;
+    bottom: 0px;
+    top: 550px;
+    width: 74px;
+    background-color: white;
+}
+
+.sidebartxt{
+    display: flex;
+    align-items: center;
+    font-family: Roboto, Ariel;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 4px;
+}
+.sidebar-box-link{
+    width: 74px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-box-link:hover{
+    cursor: pointer;
+    background-color: rgba(223, 223, 223, 0.452);
+}
+
+.sidebar-box-link img{
+    height: 26px;
+}
+
+/* .home-button{
+    height: 26px;
+}
+
+.explore-button{
+    height: 26px;
+}
+.subscriptions-button{
+    height: 26px;
+}
+.orignals-button{
+    height: 26px;
+}
+.YTmusic-button{
+    height: 26px;
+}
+.library-button{
+    height: 26px;
+} 
+used a css class element selector {.side-bar-link img targets all images inside sidebar-link    
+//*/

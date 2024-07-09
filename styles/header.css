@@ -1,0 +1,249 @@
+.header{
+    z-index: 100;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(221, 221, 221);
+
+}
+
+.left-section{
+    padding-left: 1px;
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+    width: 20px;
+    margin-right: 28px;
+    margin-left: 28px;
+}
+.hamburger-menu:hover{cursor: pointer;}
+.ytlogo{
+    height: 21px;
+}
+.ytlogo:hover{cursor: pointer;}
+
+.YTindia{
+    font-size: 11px;
+    margin-top: -15px;
+    padding-left: 3px;
+}
+
+.middle-section{
+    flex: 1;
+    display: flex;
+    margin-left: 70px;
+    margin-right: 35px;
+    align-items: center;
+    max-width: 750px;
+}
+
+
+
+.searchBox{
+    flex:1;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 204, 204);
+    box-shadow: inset 1px 1px 5px rgba(0 ,0 ,0 ,0.05);
+    width: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+.searchBox::placeholder{
+    font-family: Roboto, Ariel;
+}
+
+.search-button{
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    height: 40px;
+    width: 66px;
+    border-width: 1px;
+    border-style: solid;
+    border-left-style: none;
+    border-color: rgb(206, 204, 204);
+    margin-left: -1px;
+    margin-right: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: background-color 0.15s;
+}
+.search-button:hover {
+    cursor: pointer;
+    background-color: rgba(185, 185, 185, 0.486);
+}
+
+.search-button div{
+    font-family: Roboto, Ariel;
+    font-size: 12px;
+    position: absolute;
+    bottom: -34px;
+    right: 8px;
+
+    background-color: rgb(160, 160, 160);
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: opacity 0.15s;
+}
+
+
+
+.search-button:hover div{
+    opacity: 1;
+}    
+
+.search-icon{
+    margin-top: 4px;
+    height: 23px;
+}
+.voice-search-button{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 247);
+    transition: background-color 0.15s;
+}
+
+.voice-search-button:hover {
+    cursor: pointer;
+    background-color: rgba(185, 185, 185, 0.486);
+}
+.voice-search-button div{
+    font-family: Roboto, Ariel;
+    font-size: 11px;
+    position: absolute;
+    bottom: -34px;
+    right: -45px;
+    width: 120px;
+
+    background-color: rgb(160, 160, 160);
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: opacity 0.15s;
+}
+.voice-search-button:hover div{
+    opacity: 1;
+}
+
+
+.voice-search{
+    height: 24px;
+    margin-top: 3px;
+}
+
+.right-section{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 24px;
+    flex-shrink: 0; 
+}
+.right-section-icons{
+    position: relative;
+}
+.right-section-icons:hover{cursor: pointer;}
+
+.right-section-icons div{
+    position: absolute;
+    font-family: Roboto, Ariel;
+    font-size: 12px;
+    bottom: -34px;
+    right: -10px;
+
+    background-color: rgb(160, 160, 160);
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: opacity 0.15s;
+}
+
+.right-section-icons:hover div{
+    opacity: 1;
+}
+
+.upload-icon{
+    height: 26px;
+}
+
+.youtube-apps-icon{
+    height: 25px;
+}
+div.youtube-apps-tooltip{
+    position: absolute;
+    width: 80px;
+    right: -32px;
+}
+
+div.notification-tooltip{
+    position: absolute;
+    right: -34px;
+}
+
+.bell-icon{
+    height: 26px;
+    margin-right: -8px;
+}
+
+.notification-count{
+    position: absolute;
+    background-color: rgb(201, 4, 4);
+    color: white;
+    font-size: 11px;
+    padding-left: 4px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 25px;
+    top: -2px;
+    left: 14px;
+}
+
+.user-pic-icon{
+    height: 34px;
+    border-radius: 22px;
+}
+.user-pic-icon:hover{cursor: pointer;}
