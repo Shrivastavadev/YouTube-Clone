@@ -24,6 +24,7 @@
 .thumbnail{
     width: 100%;
     margin-bottom: 8px;
+    cursor: pointer;
 }
 .thumbnailbox:hover{cursor: pointer;}
 .thumbnailbox:active{opacity: 0.70;}
