@@ -25,9 +25,12 @@
     width: 100%;
     margin-bottom: 8px;
 }
+.thumbnailbox:hover{cursor: pointer;}
+.thumbnailbox:active{opacity: 0.70;}
 
 .thumbnailbox{
     position: relative;
+    transition: opacity 0.15s;
 }
 
 .time-stamp{
@@ -54,6 +57,9 @@
     margin-right: 0px;
     vertical-align: top;
     width: 50px;
+}
+.channelpic:hover, .videoTitle:hover, .videoAuthor:hover{
+    cursor: pointer;
 }
 .pfp{
     border-radius: 40px;
